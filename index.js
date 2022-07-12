@@ -61,6 +61,7 @@ store.subscribe( () => {
     console.log(store.getState());
 } )
 
+// dispatch
 store.dispatch(incrementCounter())
 store.dispatch(incrementCounter())
 store.dispatch(incrementCounter())
